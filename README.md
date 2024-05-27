@@ -1,10 +1,10 @@
 # Esp32 camera feed to TFT
-This project was indended to provide simple guide to display Esp32 camera feed to ST7789 driver or any TFT screens in Arduino IDE. Follow few steps down below and you're good to go. For more information please visit [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md)
+This project was indended to provide an insight to displaying Esp32 camera feed to ST7789 driver or any TFT screens using Arduino IDE. The Hardware that was used were provided by [Wireless Solution Asia](https://wirelesssolution.asia/) Follow few steps below and you're good to go. For more information please visit [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md)
 ## What you'll need
 - [Arduino IDE](https://www.arduino.cc/en/software), preferably the latest ones, but older versions will still do the job.
 - ESP32-S3 is preferable but older version will do just fine.
 - ST7789 or any TFT screens <br/> <br/>
-- Here's the Pinout of the ESP32 Camera and ST7789 (TFT) tested for project. <br/> <br/>
+- Here's the Pinout of the AIoT Board with ESP32 Camera and ST7789 (TFT) used for this project. <br/> <br/>
 - ![alt_text](/images_for_readme/pinout.PNG)
  <br/> <br/>
 ## Project files descriptions
@@ -21,8 +21,9 @@ This project was indended to provide simple guide to display Esp32 camera feed t
 If you're using different Esp32 pinout, driver types, and resolutions please change it in User_Setup.h line 221 88 55  <br/> <br/>
 ![alt_text](/images_for_readme/pinout.PNG)
  <br/> <br/> <br/> <br/>
+5. Match the Esp32 settings to your board, here's my setting for AIOT board
 4. Done! Upload the code to Esp32 and enjoy  <br/> <br/>
 ![alt_text](/images_for_readme/pinout.PNG)
  <br/> <br/> <br/> <br/>
 ## Credits
-Thanks to [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md) for providing essential libraries.
+Thanks to [Wireless Solution Asia](https://wirelesssolution.asia/) for providing essentials tools and [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md) for TFT libraries.
