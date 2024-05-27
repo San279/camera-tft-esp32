@@ -12,18 +12,20 @@ This project was indended to provide an insight to displaying Esp32 camera feed 
 - User_Setup.h - Contain driver types, pinout, resolution, and etc. This needs to be placed inside the TFT_eSPI library.  <br/> <br/>
  # Run the project
 1. Download the project and unzip it to your Arduino Directory. <br/> <br/>
-![alt_text](/images_for_readme/pinout.PNG)
+![alt_text](/images_for_readme/download_directory.PNG)
  <br/> <br/> <br/> <br/>
 2. Download TFT_eSPI library from Arduino's download manager or github [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md). IF YOU"RE USING GITHUB TO DOWNLOAD THE LIBRARY DONT FORGET TO PLACE IT INSIDE ARDUINO DIRECTORY!<br/> <br/>
-![alt_text](/images_for_readme/pinout.PNG)
+![alt_text](/images_for_readme/library_manager.PNG)
  <br/> <br/> <br/> <br/>
 3. Replace User_Setup.h inside TFT_eSPI library with this User_Setup.h. From Arduino's directory, go to libraries -> TFT_eSPI and replaced the file.
 If you're using different Esp32 pinout, driver types, and resolutions please change it in User_Setup.h line 221 88 55  <br/> <br/>
-![alt_text](/images_for_readme/pinout.PNG)
+![alt_text](/images_for_readme/replace.PNG)
  <br/> <br/> <br/> <br/>
-4. Match the Esp32 settings to your board, here's my setting for AIOT board
-5. Done! Upload the code to Esp32 and enjoy  <br/> <br/>
-![alt_text](/images_for_readme/pinout.PNG)
+4. Match the Esp32 settings to your board, here's my setting for AIOT board. Don't forget to enable OPI PSRAM.  <br/> <br/>
+ ![alt_text](/images_for_readme/esp_setup.PNG)
+ <br/> <br/> <br/> <br/>
+6. Done! Upload the code to Esp32 and enjoy  <br/> <br/>
+![alt_text](/images_for_readme/some.PNG)
  <br/> <br/> <br/> <br/>
 ## Credits
 Thanks to [Wireless Solution Asia](https://wirelesssolution.asia/) for providing essentials tools and [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md) for TFT libraries.
