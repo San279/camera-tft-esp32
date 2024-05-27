@@ -21,8 +21,8 @@ This project was indended to provide an insight to displaying Esp32 camera feed 
 If you're using different Esp32 pinout, driver types, and resolutions please change it in User_Setup.h line 221 88 55  <br/> <br/>
 ![alt_text](/images_for_readme/pinout.PNG)
  <br/> <br/> <br/> <br/>
-5. Match the Esp32 settings to your board, here's my setting for AIOT board
-4. Done! Upload the code to Esp32 and enjoy  <br/> <br/>
+4. Match the Esp32 settings to your board, here's my setting for AIOT board
+5. Done! Upload the code to Esp32 and enjoy  <br/> <br/>
 ![alt_text](/images_for_readme/pinout.PNG)
  <br/> <br/> <br/> <br/>
 ## Credits
