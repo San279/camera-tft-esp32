@@ -1,5 +1,5 @@
 # Esp32 camera feed to TFT
-This project was indended to provide an insight to displaying Esp32 camera feed to ST7789 driver or any TFT screens using Arduino IDE. The Hardware that was used were provided by [Wireless Solution Asia](https://wirelesssolution.asia/) Follow few steps below and you're good to go. For more information please visit [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md)<br/> <br/>
+This project was indended to provide an insight for displaying Esp32 camera feed to ST7789 driver or any TFT screens using the Arduino IDE. The Hardware that was used were provided by [Wireless Solution Asia](https://wirelesssolution.asia/) Follow few steps below and you're good to go. For more information please visit [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md)<br/> <br/>
 ![alt_text](/images-for-readme/AIOT.PNG)
 <br/> <br/>
 ## What you'll need
