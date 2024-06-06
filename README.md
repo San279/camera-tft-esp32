@@ -4,10 +4,10 @@ This project was indended to provide an insight for displaying Esp32 camera feed
 <br/> <br/>
 ## What you'll need
 - [Arduino IDE](https://www.arduino.cc/en/software), preferably the latest ones, but older versions will still do the job.
-- ESP32-S3 is preferable but older version will do just fine.
+- [AIoT](https://wirelesssolution.asia/) board Esp32-S3 or Esp32 with PSRAM.
 - ST7789 or any TFT screens <br/> <br/>
   Here's the Pinout of the AIoT Board with ESP32 Camera and ST7789 (TFT) used for this project. <br/> <br/>
-- ![alt_text](/images-for-readme/pinout.PNG)
+  ![alt_text](/images-for-readme/pinout.PNG)
  <br/> <br/>
 ## Project files descriptions
 - camera-to-tft - Contain Arduino codes to display camera feed to tft screen continously.
