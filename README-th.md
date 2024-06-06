@@ -1,4 +1,4 @@
-## นำรูปจากกล้อง Esp32-S3 ขึ้นบนจอ TFT
+## camera-tft-esp32
  [For English version](https://github.com/San279/Esp32-camera-to-tft)
  <br/>
  <br/>
