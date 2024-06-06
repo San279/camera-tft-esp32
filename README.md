@@ -26,7 +26,7 @@ If you're using different Esp32 pinout, driver types, and resolutions please cha
 <strong> 4. Match the Esp32 settings to your board, here's my setting for AIOT board. Don't forget to enable OPI PSRAM. </strong> <br/> <br/>
  ![alt_text](/images-for-readme/esp_setup.PNG)
  <br/> <br/> <br/> <br/>
-6. Done! Upload the code to Esp32 and enjoy  <br/> <br/>
+<strong> 5. Upload the code to Esp32 and you're done. </strong> <br/> <br/>
 ![alt_text](/images-for-readme/AIOT.PNG)
  <br/> <br/> <br/> <br/>
 ## Credits
