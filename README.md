@@ -13,17 +13,17 @@ This project was indended to provide an insight for displaying Esp32 camera feed
 - camera-to-tft - Contain Arduino codes to display camera feed to tft screen continously.
 - User_Setup.h - Contain driver types, pinout, resolution, and etc. This needs to be placed inside the TFT_eSPI library.  <br/> <br/>
  # Run the project
-1. Download the project and unzip it to your Arduino Directory. <br/> <br/>
+<strong> 1. Download the project and unzip it to your Arduino Directory. </strong> <br/> <br/>
 ![alt_text](/images-for-readme/download_directory.PNG)
  <br/> <br/> <br/> <br/>
-2. Download TFT_eSPI library from Arduino's download manager or github [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md). If you're using github to download you will need to add custom library using zip file.<br/> <br/>
+<strong> 2. Download TFT_eSPI library from Arduino's download manager or github [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md). If you're using github to download you will need to add custom library using zip file. </strong> <br/> <br/>
 ![alt_text](/images-for-readme/library_manager.PNG)
  <br/> <br/><br/> <br/>
-4. Replace User_Setup.h inside TFT_eSPI library with this User_Setup.h. From Arduino's directory, go to libraries -> TFT_eSPI and replaced the file.
-If you're using different Esp32 pinout, driver types, and resolutions please change it in User_Setup.h line 221 88 55  <br/> <br/>
+<strong> 3. Replace User_Setup.h inside TFT_eSPI library with this User_Setup.h. From Arduino's directory, go to libraries -> TFT_eSPI and replaced the file.
+If you're using different Esp32 pinout, driver types, and resolutions please change it in User_Setup.h line 221 88 55. </strong>  <br/> <br/>
 ![alt_text](/images-for-readme/replace.PNG)
  <br/> <br/> <br/> <br/>
-5. Match the Esp32 settings to your board, here's my setting for AIOT board. Don't forget to enable OPI PSRAM.  <br/> <br/>
+<strong> 4. Match the Esp32 settings to your board, here's my setting for AIOT board. Don't forget to enable OPI PSRAM. </strong> <br/> <br/>
  ![alt_text](/images-for-readme/esp_setup.PNG)
  <br/> <br/> <br/> <br/>
 6. Done! Upload the code to Esp32 and enjoy  <br/> <br/>
