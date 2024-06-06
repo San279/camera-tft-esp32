@@ -19,7 +19,7 @@
 <br /><br />
 ![alt_text](/images-for-readme/download_directory.PNG)
 <br /><br /><br /><br />
-<strong> 2. เปิดไฟล์ camera-to-tft.ino Arduino ในแฟ้มที่พึ่งแยกออก และในช่องด้ายซ้านมือให้กดไปที่ library และค้นหา TFT_eSPI เพื่อกดโหลดไลบรารี่นั้น</strong>
+<strong> 2. เปิดไฟล์ camera-to-tft.ino Arduino ในแฟ้มที่พึ่งแยกออก และในช่องด้ายซ้านมือให้กดไปที่ library และค้นหา TFT_eSPI เพื่อดาวโหลดไลบรารี่นั้น</strong>
 <br /><br />
 ![alt_text](/images-for-readme/library_manager.PNG)
 <br /><br /><br /><br />
