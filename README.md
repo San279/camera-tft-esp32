@@ -17,7 +17,7 @@ This project was indended to provide an insight for displaying Esp32 camera feed
 - User_Setup.h - Contain driver types, pinout, resolution, and etc. This needs to be placed inside the TFT_eSPI library.  <br/> <br/>
  # Run the project
 <strong> 1. Download the project and unzip it to Arduino Directory. </strong> <br/> <br/>
-![alt_text](/images-for-readme/download_directory.PNG)
+![alt_text](/images-for-readme/replace.PNG)
  <br/> <br/> <br/> <br/>
 <strong> 2. Download TFT_eSPI library from Arduino's download manager or github [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md). If you're using github to download you will need to add custom library using zip file. </strong> <br/> <br/>
 ![alt_text](/images-for-readme/library_manager.PNG)
