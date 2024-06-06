@@ -2,7 +2,7 @@
  [For English version](https://github.com/San279/Esp32-camera-to-tft)
  <br/>
  <br/>
- โปรเจ็คนี้ถูกออกแบบมาใช้กับ [FOMO](https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) AI ตรวจจับวัตถุ ในส่วนของการเซ็ทอัพจอ TFT กับกล้อง AIoT บอร์ด หรือ Esp32
+ โปรเจ็คนี้ถูกออกแบบมาใช้กับ [FOMO](https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/fomo-object-detection-for-constrained-devices) AI ตรวจจับวัตถุ ในส่วนของการเซ็ทอัพจอ TFT กับกล้อง AIoT บอร์ด หรือ Esp32 ที่มี PSRAM เท่านั้น
 <br/>
 ## สิงที่ต้องมี
  - [AIoT](https://wirelesssolution.asia/) บอร์ด Esp32-S3 หรือ Esp32 ที่มี PSRAM
