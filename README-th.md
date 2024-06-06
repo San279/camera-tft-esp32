@@ -12,26 +12,26 @@
    รูปแผงวงจรของกล้องกับจอ TFT ใน AIot บอร์ด <br/> <br/>
   ![alt_text](/images-for-readme/pinout.PNG)
 ## โครงสร้าง
- - camera-to-tft - ในแฟ้มมี c++ โค้ดสำหรับ Arduino เพื่อแสดงรูปภาพขึ้นบนหน้าจอ TFT.
- - User_Setup.h - เฮเด้อไฟล์สำหรับ c++ นำไฟล์นี่ไปใส่ใน TFT_eSPI ไลบรารี่.  <br/> <br/>
+ - camera-to-tft - มีไฟล์ Arduino เพื่อแสดงรูปภาพขึ้นบนหน้าจอ TFT.
+ - User_Setup.h - เฮเด้อไฟล์สำหรับ c++ ต้องนำไฟล์นี้ไปแทนที่ไฟล์เดิมในแฟ้ม TFT_eSPI  <br/> <br/>
 ## วิธีรันโปรเจ็ค
 <strong> 1. ดาวน์โหลดไลบราลี่เป็น zip และแตกไฟล์ในแฟ้ม Arduino. </strong>
 <br /><br />
 ![alt_text](/images-for-readme/download_directory.PNG)
 <br /><br /><br /><br />
-<strong> 2. เปิดไฟล์ camera-to-tft.ino Arduino ในแฟ้มที่พึ่งแยกออก และในช่องด้ายซ้านมือให้กดไปที่ library และค้นหา TFT_eSPI เพื่อดาวโหลดไลบรารี่นั้น</strong>
+<strong> 2. เปิดไฟล์ camera-to-tft.ino Arduino ในแฟ้มที่พึ่งแยกออก และในช่องด้ายซ้านมือให้กดไปที่ library และค้นหา TFT_eSPI เพื่อดาวโหลดไฟล์</strong>
 <br /><br />
 ![alt_text](/images-for-readme/library_manager.PNG)
 <br /><br /><br /><br />
-<strong> 3. หลังจากโหลด TFT_eSPI เสร็จแล้ว นำไฟล์ User_Setup.h ไปใว้แทนในแฟ้ม TFT_eSPI </strong> 
- - จากแฟ้ม Arduino ให้ไปที่ library และ กดเข้าไปใน TFT_eSPI และนำไฟล์ User_Setup.h มาใว้แทนไฟล์ของเดิมในไลบรารี่นี้
+<strong> 3. นำไฟล์ User_Setup.h ไปใว้แทนในแฟ้ม TFT_eSPI </strong> 
+ - บนคอมพิวเตอร์เราไปที่ Documents -> Arduino -> libraries -> TFT_eSPI และนำไฟล์ User_Setup.h มาใว้แทนไฟล์ในไลบรารี่นี้
 <br/><br/>
 ![alt_text](/images-for-readme/replace.PNG)
 <strong> 4. กดไปที่ tools ตรงตัวเลือกด้านบนและเปลี่ยน Board เป็น "ESP32S3 Dev Module" และเปลี่ยน PSRAM เป็น "OPI PSRAM".  </strong>
 <br /><br />
 ![alt_text](/images-for-readme/library_manager.PNG)
 <br /><br /><br /><br />
-<strong> 5. อัพโหลดโค้ดขึ้นบน ESP32-S3 เพียงแค่นี่เราสามารถเห็นรูปจากกล้องบนจอ TFT.  </strong> <br/> <br/>
+<strong> 5. อัพโหลดโค้ดขึ้นบน ESP32-S3  </strong> <br/> <br/>
 ![alt_text](/images-for-readme/AIOT.PNG)
 <br /><br /><br /><br />
 ## เครดิต
