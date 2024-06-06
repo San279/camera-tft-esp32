@@ -1,4 +1,4 @@
-# Esp32 camera feed to TFT
+# camera-tft-esp32
 [ภาษาไทย](https://github.com/San279/Esp32-camera-to-tft/blob/main/README-th.md)
 <br/>
 <br/>
@@ -16,7 +16,7 @@ This project was indended to provide an insight for displaying Esp32 camera feed
 - camera-to-tft - Contain Arduino codes to display camera feed to tft screen continously.
 - User_Setup.h - Contain driver types, pinout, resolution, and etc. This needs to be placed inside the TFT_eSPI library.  <br/> <br/>
  # Run the project
-<strong> 1. Download the project and unzip it to your Arduino Directory. </strong> <br/> <br/>
+<strong> 1. Download the project and unzip it to Arduino Directory. </strong> <br/> <br/>
 ![alt_text](/images-for-readme/download_directory.PNG)
  <br/> <br/> <br/> <br/>
 <strong> 2. Download TFT_eSPI library from Arduino's download manager or github [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md). If you're using github to download you will need to add custom library using zip file. </strong> <br/> <br/>
