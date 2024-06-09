@@ -7,7 +7,7 @@
 ## สิงที่ต้องมี
  - [AIoT](https://wirelesssolution.asia/) บอร์ด Esp32-S3 หรือ Esp32 ที่มี PSRAM
  - กล้อง OV 2640
- - ST7789 หรือ จอ TFT แบบไหนก้ได้ <br/> <br/>
+ - ST7789 หรือ จอ TFT แบบไหนก้ได้ <br/>
  - [Arduino IDE](https://www.arduino.cc/en/software) อันเก่าหรือใหม่ก้ได้
    รูปแผงวงจรของกล้องกับจอ TFT ใน AIot บอร์ด <br/> <br/>
   ![alt_text](/images-for-readme/pinout.PNG)
@@ -24,14 +24,14 @@
 ![alt_text](/images-for-readme/library_manager.PNG)
 <br /><br /><br /><br />
 <strong> 3. นำไฟล์ User_Setup.h ไปใว้แทนในแฟ้ม TFT_eSPI </strong> 
- - บนคอมพิวเตอร์เราไปที่ Documents -> Arduino -> libraries -> TFT_eSPI และนำไฟล์ User_Setup.h มาใว้แทนไฟล์ในไลบรารี่นี้
+ - บนคอมพิวเตอร์เราไปที่ Documents -> Arduino -> libraries -> TFT_eSPI และนำไฟล์ User_Setup.h มาใว้แทนไฟล์ในนี้
 <br/><br/>
 ![alt_text](/images-for-readme/replace.PNG)
 <strong> 4. กดไปที่ tools ตรงตัวเลือกด้านบนและเปลี่ยน Board เป็น "ESP32S3 Dev Module" และเปลี่ยน PSRAM เป็น "OPI PSRAM".  </strong>
 <br /><br />
 ![alt_text](/images-for-readme/library_manager.PNG)
 <br /><br /><br /><br />
-<strong> 5. อัพโหลดโค้ดขึ้นบน ESP32-S3  </strong> <br/> <br/>
+<strong> 5. อัพโหลดโค้ด </strong> <br/> <br/>
 ![alt_text](/images-for-readme/AIOT.PNG)
 <br /><br /><br /><br />
 ## เครดิต
