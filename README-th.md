@@ -36,4 +36,4 @@
 <br /><br /><br /><br />
 ## เครดิต
 ต้องขอขอบคุณ [WIRELESS SOLUTION ASIA CO.,LTD](https://wirelesssolution.asia/) สำหรับการสนับสนุนโปรเจ็คนี้ และ [Bodmer / TFT_eSPI](https://github.com/Bodmer/TFT_eSPI/blob/master/README.md)
-สำหรับโค้ดส่วนจอ TFT
+สำหรับไลบรารี่ของจอ TFT
