@@ -23,7 +23,7 @@ This project was indended to provide an insight for displaying Esp32 camera feed
 ![alt_text](/images-for-readme/library_manager.PNG)
  <br/> <br/><br/> <br/>
 <strong> 3. Replace User_Setup.h inside TFT_eSPI library with this User_Setup.h. From Arduino's directory, go to libraries -> TFT_eSPI and replaced the file.
-If you're using different Esp32 pinout, driver types, and resolutions please change it in User_Setup.h line 221 88 55. </strong>  <br/> <br/>
+If you're using different Esp32 pinout, driver types, and resolutions please change it in User_Setup.h line 221, 88, and 55. </strong>  <br/> <br/>
 ![alt_text](/images-for-readme/replace.PNG)
  <br/> <br/> <br/> <br/>
 <strong> 4. Match the Esp32 settings to your board, here's my setting for AIOT board. Don't forget to enable OPI PSRAM. </strong> <br/> <br/>
